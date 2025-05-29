@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    background-color:darkblue;
+    padding: 1.75% 0;
+    margin: 0;
+}
+
+div{
+    width: 50%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+div h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Submit button styling */
+.button {
+    width: 35%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #004085;
+}
+
+.exit{
+    width:10%;
+    background-color: #e24a4a;
+    margin-top:3%;
+    margin-left: -25%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.next{
+    width:10%;
+    background-color: #4caf50;
+    margin-top:-6%;
+    margin-left:25%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    display: block;
+    margin: 20px auto;
+    background-color: #ddd; /* Light gray background when image fails */
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    line-height: 150px; /* Centers text vertically */
+    font-weight: bold;
+}
+
+

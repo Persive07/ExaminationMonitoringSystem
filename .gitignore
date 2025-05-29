@@ -1,0 +1,10 @@
+# Ignore XAMPP config files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files (if any)
+.env

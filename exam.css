@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    background-color:darkblue;
+    padding: 1.75% 0;
+    margin: 0;
+}
+
+#intro{
+    width: 20%;
+    padding: 1.5rem;
+    margin-top:-10%;
+    font-family: Arial, sans-serif; 
+    margin-left: 12%;
+    margin-top: -15%;
+    margin-bottom: -5%;
+}
+
+#quest{
+    width: 80%;
+    margin:auto;
+    margin-top: -20px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+/* Heading styling */
+div h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000; /* Red color for urgency */
+    background-color: #f8f8f8;
+    border: 2px solid #ff0000;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px auto;
+    margin-right:15px;
+    margin-top:5px;
+    display: block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Submit button */
+.SubQuest {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 15px;
+    width: 10%;
+    transition: background 0.3s;
+}
+
+.SubQuest:hover {
+    background-color: #0056b3;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    display: block;
+    margin: 20px auto;
+    background-color: #ddd; /* Light gray background when image fails */
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    line-height: 150px; /* Centers text vertically */
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: -7%;
+}
+
+.Quit{
+    padding: 0.6rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #e24a4a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;    
+    margin-left: 86%;
+    margin-bottom: 5%;
+    width: 8%;
+    
+}
+
+.Pause{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 84%;
+    width: 10%;
+    transition: background 0.3s;
+}
+
+
+
+
+
+
+
+
